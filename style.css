@@ -1,11 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #201428;
+  color: #FFFFFF;
   font-family: 'IBM Plex Sans';
 }
 
+:root {
+  --linear: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
+}
 nav {
+  background-color: #201428;
   position: sticky;
 }
 
@@ -17,7 +21,6 @@ nav {
 }
 
 .chat-sign-in a {
-  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -29,12 +32,13 @@ nav {
   padding-right: 30px;
 }
 
-.sign-in-button {
+.sign-in-button,
+.start-button,
+.try-button {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
   border-radius: 4px;
-  color: #FFFFFF;
   font-weight: 600;
-  padding: 10px 35px;
+  padding: 10px 30px;
   transition: all .5s ease-in .2s;
 }
 
@@ -42,7 +46,9 @@ nav {
   color: #f54f4b;
 }
 
-.sign-in-button:hover {
+.sign-in-button:hover,
+.start-button:hover,
+.try-button:hover {
   background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
   align-items: flex-start;
 }
@@ -56,7 +62,6 @@ nav {
 }
 
 .container-nav a {
-  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -96,3 +101,78 @@ nav {
   background-position: 50%;
   background-size: cover;
 }*/
+
+
+section {
+  background-image: url(/images/landing-page/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 36.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-bg {
+  display: flex;
+  justify-content: center;
+}
+
+
+.heading {
+  font-size: 3.75rem;
+  font-weight: 550;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+.heading span {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text {
+  text-align: center;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  max-width: 70%;
+  line-height: 1.7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.banner-buttons {
+  max-width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem;
+}
+
+.banner-buttons a {
+  text-decoration: none;
+}
+
+.banner-buttons .try-button {
+  border: #a15cc8;
+}
+/*
+.start-button {
+  background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all .5s ease-in .2s;
+}*/
+
+.try-button {
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: all .5s ease-in .2s;
+}
