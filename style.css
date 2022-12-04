@@ -33,8 +33,7 @@ nav {
 }
 
 .sign-in-button,
-.start-button,
-.try-button {
+.start-button {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
   border-radius: 4px;
   font-weight: 600;
@@ -47,8 +46,7 @@ nav {
 }
 
 .sign-in-button:hover,
-.start-button:hover,
-.try-button:hover {
+.start-button:hover {
   background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
   align-items: flex-start;
 }
@@ -121,7 +119,7 @@ section {
 
 .heading {
   font-size: 3.75rem;
-  font-weight: 550;
+  font-weight: 520;
   padding-top: 10rem;
   padding-bottom: 1rem;
 }
@@ -157,9 +155,8 @@ section {
   text-decoration: none;
 }
 
-.banner-buttons .try-button {
-  border: #a15cc8;
-}
+
+
 /*
 .start-button {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
@@ -171,8 +168,18 @@ section {
 }*/
 
 .try-button {
+  background: linear-gradient(rgb(18, 18, 18), rgb(18, 18, 18)) padding-box,
+  linear-gradient(to right, #fe4d3c, #7f60f9) border-box;
   border-radius: 4px;
-  font-weight: 600;
-  padding: 10px 30px;
+  border: 2px solid transparent;
+  padding: 8px 28px;
+}
+
+.try-button:hover {
+  background: black;
+  background: linear-gradient(#fe4d3c,  #7f60f9) padding-box,
+  linear-gradient(to right, #fe4d3c, #7f60f9) border-box;
+  padding: 8px 28px;
   transition: all .5s ease-in .2s;
 }
+
