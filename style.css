@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #201428;
+  font-family: 'IBM Plex Sans';
+}
+
+nav {
+  position: sticky;
+}
+
+.container-main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-sign-in a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.chat-sign-in p {
+  display: inline;
+}
+
+.ai-chat {
+  padding-right: 30px;
+}
+
+.sign-in-button {
+  background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 10px 35px;
+  transition: .5s ease-in .2s;
+}
+
+.ai-chat:hover {
+  color: #f54f4b;
+}
+
+.sign-in-button:hover {
+  background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
+  align-items: flex-start;
+}
+
+/* Nav bar */
+.container-nav ul {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.container-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.container-nav a:hover {
+  color: #f54f4b;
+}
+
+
+
