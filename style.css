@@ -33,7 +33,8 @@ nav {
 }
 
 .sign-in-button,
-.start-button {
+.start-button,
+.get-chatting-now {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
   border-radius: 4px;
   font-weight: 600;
@@ -46,7 +47,8 @@ nav {
 }
 
 .sign-in-button:hover,
-.start-button:hover {
+.start-button:hover,
+.get-chatting-now:hover {
   background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
   align-items: flex-start;
 }
@@ -156,7 +158,6 @@ nav {
 }
 
 
-
 /*
 .start-button {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
@@ -185,7 +186,8 @@ nav {
 
 /* Features */
 
-#features {
+#features,
+#community {
   background-color: rgb(13, 13, 13);
 }
 
@@ -262,4 +264,119 @@ nav {
   padding-left: 3px;
   text-align: center;
   border-radius: 4px;
+}
+
+/* chat */
+
+#chat {
+  background-color: black;
+  background-image: url(/images/landing-page/linear-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20%;
+}
+
+.container-chat {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading-1,
+.heading-2 {
+  font-size: 2.2rem;
+  padding-bottom: 24px;
+}
+
+.heading-2 {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.chatting-now a {
+  text-decoration: none;
+}
+
+/* community */
+
+.container-community {
+  padding: 80px 20px;
+}
+
+.community-heading {
+  font-size: 2.2rem;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.community-p {
+  font-size: 1.2rem;
+  opacity: .8;
+  text-align: center;
+}
+
+.sub a {
+  text-decoration: none;
+  opacity: .7;
+}
+
+.sub a:hover {
+  text-decoration: underline;
+}
+
+.grid-h {
+  padding-bottom: 16px;
+}
+
+.grid-child h3 {
+  font-size: 1.4rem;
+  padding: 8px 0;
+}
+
+.grid-child p {
+  opacity: .7;
+  padding-bottom: 20px;
+}
+
+.lang span {
+  font-weight: bold;
+}
+
+.grid-child {
+  background-color: #1E1E1E;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.community-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2.5rem;
+  grid-row-gap: 4rem;
+  padding-top: 48px;
+}
+
+#footer {
+  background-color: black;
+}
+
+.container-footer {
+  padding: 0 20px;
+  background-color: black;
+}
+
+.social-media-icons a,
+.loc-add a,
+.mail-link a {
+  text-decoration: none;
+}
+
+.mail-link p:hover {
+  color: #fe4d3c;
 }
