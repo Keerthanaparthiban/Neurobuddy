@@ -186,7 +186,7 @@ nav {
 /* Features */
 
 #features {
-  background-color: #120f12;
+  background-color: rgb(13, 13, 13);
 }
 
 .container-features {
@@ -217,10 +217,49 @@ nav {
 .f-gen {
   padding: 24px 0 0 0;
   font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 45%;
+}
+
+/* grids */
+
+.grids {
+  display: grid;
+  padding: 56px 44px 0 44px;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+  grid-row-gap: 4rem;
+  max-width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 
+.grids a {
+  text-decoration: none;
+  display: flex;
+}
 
+.h-child {
+  font-weight: 500;
+}
 
+.p-child {
+  opacity: .7;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin-left: 15px;
+}
+
+.icon {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
+  text-align: center;
+  border-radius: 4px;
+}
