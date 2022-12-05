@@ -37,7 +37,7 @@ nav {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
   border-radius: 4px;
   font-weight: 600;
-  padding: 10px 30px;
+  padding: 10px 35px;
   transition: all .5s ease-in .2s;
 }
 
@@ -101,12 +101,12 @@ nav {
 }*/
 
 
-section {
+#main {
   background-image: url(/images/landing-page/hero-bg.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 36.5rem;
+  height: 35.7rem;
   display: flex;
   justify-content: center;
 }
@@ -181,5 +181,44 @@ section {
   linear-gradient(to right, #fe4d3c, #7f60f9) border-box;
   padding: 8px 28px;
   transition: all .5s ease-in .2s;
+}
+
+/* Features */
+
+#features {
+  background-color: #120f12;
+}
+
+.container-features {
+  padding: 80px 20px;
+}
+
+.feature-preview {
+  text-align: center;
+}
+
+.f-heading {
+  color: #fb5647;
+  padding-bottom: 24px;
+}
+
+.f-desc {
+  font-size: 2.3rem;
+  font-weight: 550;
+}
+
+.f-desc span {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.f-gen {
+  padding: 24px 0 0 0;
+  font-size: 1.2rem;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
 

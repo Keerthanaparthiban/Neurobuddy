@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <nav>
+    <nav id="navigation">
       <div class="container-main">
         <div class="logo">
           <img src="/images/ineuron-logo-white.png" alt="ineuron logo">
@@ -23,7 +23,7 @@
 
       <div class="container-nav">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#navigation">Home</a></li>
           <li><a href="https://ineuron.ai/courses">Courses</a></li>
           <li><a href="https://ineuron.ai/one-neuron">One Neuron</a></li>
           <li><a href="https://jobs.ineuron.ai/">Neuro Lab</a></li>
@@ -35,15 +35,25 @@
       </div>
     </nav>
     
-    <section>
+    <section id="main">
       <div class="banner-bg">
         <div class="banner">
           <h1 class="heading">Code faster with the help of <span>AI</span></h1>
           <p class="text">Generate code just by typing a text description. AI will create the code for you. Test it now</p>
           <div class="banner-buttons">
             <a href="https://account.ineuron.ai/signin?domain=neurobuddy.ineuron.ai&redirectUrl=/ai-chat"><p class="try-button">Try It</p></a>
-            <a href=""><p class="start-button">Get Started</p></a>
+            <a href="#features"><p class="start-button">Get Started</p></a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container-features">
+        <div class="feature-preview">
+          <h2 class="f-heading">Feature Preview</h2>
+          <h1 class="f-desc">Generate <span>code from a text description</span></h1>
+          <p class="f-gen">More than just a code generator. A tool that helps you with a wide range of tasks. All in one place.</p>
         </div>
       </div>
     </section>
