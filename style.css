@@ -22,7 +22,6 @@ body {
 }
 
 .container-main {
-  padding: 20px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -494,23 +493,27 @@ button {
   background: none;
 }
 
+.container-main {
+  padding: 20px 130px;
+}
+
 .container-nav {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 110px;
+  padding-right: 110px;
 }
 
 .container-chat {
-  padding: 100px 80px;
+  padding: 80px 130px;
 }
 
 .container-community {
-  padding-left: 85px;
-  padding-right: 85px;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 .footer1-cont {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 130px;
+  padding-right: 13px;
 }
 
 /* sign in */
