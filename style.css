@@ -292,7 +292,7 @@ body {
 .container-chat {
   padding: 80px 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
