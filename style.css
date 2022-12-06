@@ -373,10 +373,101 @@ nav {
 
 .social-media-icons a,
 .loc-add a,
-.mail-link a {
+.mail-link a,
+.company-child a,
+.prod-child a {
   text-decoration: none;
 }
 
-.mail-link p:hover {
+.mail-link a:hover,
+.company-child a:hover,
+.prod-child a:hover {
   color: #fe4d3c;
+}
+
+.prod-ul-child,
+.company-ul-child {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-products,
+.container-Company-grid {
+  margin-left: 8px;
+}
+
+.container-products p,
+.container-Company-grid p {
+  padding: 20px 0 32px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.prod-child,
+.company-child {
+  padding-bottom: 24px;
+}
+
+/* social media section */
+#footer {
+  background-color: black;
+}
+
+.footer {
+  padding: 40px 0 40px 0;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  column-gap: 20px;
+}
+
+.footer1-cont {
+  background-color: black;
+  padding: 0 20px 0 20px;
+}
+
+.logo-social-media-icons {
+  padding-top: 16px;
+  display: grid;
+  row-gap: 15px;
+}
+
+.company-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+.container-Company-grid {
+  border-right: 1px solid white;
+}
+
+.social-media-icons a {
+  padding-right: 10px;
+}
+
+.social-media-icons i {
+  width: 30px;
+  height: 30px;
+}
+
+.company {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+}
+.mail-link,
+.address {
+  padding-left: 20px;
+}
+
+.location,
+.mail-ineuron {
+  display: flex;
+  align-items: center;
+}
+
+.iso-ineuron,
+.iso-ineuron p {
+  padding-left: 20px;
 }
