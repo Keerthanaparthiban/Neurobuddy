@@ -8,9 +8,14 @@
 :root {
   --linear: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
 }
-nav {
+
+.nav-container {
   background-color: #201428;
-  position: sticky;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .container-main {
@@ -104,25 +109,25 @@ nav {
 
 
 #main {
+  margin-top: 8rem;
+}
+
+.banner-bg {
   background-image: url(./images/landing-page/hero-bg.png);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 35.7rem;
+  height: 58vh;
   display: flex;
   justify-content: center;
-}
-
-.banner-bg {
-  display: flex;
-  justify-content: center;
+  padding: 80px 20px;
 }
 
 
 .heading {
   font-size: 3.75rem;
   font-weight: 520;
-  padding-top: 10rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
 }
 
