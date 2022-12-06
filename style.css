@@ -5,6 +5,9 @@
   font-family: 'IBM Plex Sans';
 }
 
+body {
+  background-color: black;
+}
 :root {
   --linear: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
 }
@@ -249,7 +252,12 @@
 
 .grids a {
   text-decoration: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: .05fr 1fr;
+  align-items: flex-start;
+  column-gap: 1rem;
+  justify-content: center;
+
 }
 
 .h-child {
@@ -259,17 +267,21 @@
 .p-child {
   opacity: .7;
   flex-wrap: wrap;
-  max-width: 24rem;
+  
 }
 
-.content {
-  margin-left: 15px;
+.icon i {
+  border-radius: 4px;
+  size: 16px;
 }
 
 .icon {
   background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  width: 20px;
+  height: 20px;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
   text-align: center;
-  border-radius: 4px;
 }
 
 /* chat */
@@ -278,18 +290,15 @@
   background-color: black;
   background-image: url(./images/landing-page/linear-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 20%;
+  background-position: right 20% bottom -50%;
+  background-size: 50%;
 }
 
 .container-chat {
   padding: 80px 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .heading-1,
