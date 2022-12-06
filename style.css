@@ -24,17 +24,22 @@
   justify-content: space-between;
   align-items: center;
 }
+.chat-sign-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .chat-sign-in a {
   text-decoration: none;
 }
 
-.chat-sign-in p {
-  display: inline;
+.sign-in-button {
+  margin-left: 30px;
 }
 
-.ai-chat {
-  padding-right: 30px;
+.sign-in-button:hover {
+  transform: translateY(-10);
 }
 
 .sign-in-button,
@@ -140,8 +145,8 @@
 
 .text {
   text-align: center;
-  opacity: 0.6;
-  font-size: 1.2rem;
+  opacity: 0.8;
+  font-size: 1.25rem;
   max-width: 70%;
   line-height: 1.7rem;
   margin-left: auto;
@@ -254,6 +259,7 @@
 .p-child {
   opacity: .7;
   flex-wrap: wrap;
+  max-width: 24rem;
 }
 
 .content {
@@ -262,11 +268,6 @@
 
 .icon {
   background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
-  width: 30px;
-  height: 30px;
-  padding-top: 10px;
-  padding-right: 3px;
-  padding-left: 3px;
   text-align: center;
   border-radius: 4px;
 }
@@ -434,13 +435,12 @@
 .logo-social-media-icons {
   padding-top: 16px;
   display: grid;
-  row-gap: 15px;
+  row-gap: 25px;
 }
 
 .company-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
 }
 
 .container-Company-grid {
@@ -448,12 +448,7 @@
 }
 
 .social-media-icons a {
-  padding-right: 10px;
-}
-
-.social-media-icons i {
-  width: 30px;
-  height: 30px;
+  padding-right: 15px;
 }
 
 .company {
@@ -461,18 +456,36 @@
   grid-template-columns: 1fr;
   row-gap: 30px;
 }
-.mail-link,
-.address {
-  padding-left: 20px;
-}
 
 .location,
 .mail-ineuron {
-  display: flex;
+  display: grid;
+  grid-template-columns: .05fr 1fr;
+  column-gap: 25px;
   align-items: center;
 }
 
-.iso-ineuron,
-.iso-ineuron p {
+.iso-ineuron img {
+  width: 80px;
+  height: 110px;
+}
+
+.iso-ineuron {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+.iso-ineuron img {
   padding-left: 20px;
+}
+
+.iso-ineuron p {
+  padding-left: 25px;
+}
+/* add ins */
+
+button {
+  border: none;
+  background: none;
 }
