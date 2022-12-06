@@ -45,7 +45,7 @@ body {
   transform: translateY(-10);
 }
 
-.sign-in-button,
+/*.sign-in-button,
 .start-button,
 .get-chatting-now {
   background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
@@ -53,18 +53,18 @@ body {
   font-weight: 600;
   padding: 10px 35px;
   transition: all .5s ease-in .2s;
-}
+}*/
 
 .ai-chat:hover {
   color: #f54f4b;
 }
 
-.sign-in-button:hover,
+/*.sign-in-button:hover,
 .start-button:hover,
 .get-chatting-now:hover {
   background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
   align-items: flex-start;
-}
+}*/
 
 /* Nav bar */
 .container-nav ul {
@@ -511,4 +511,32 @@ button {
 .footer1-cont {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+/* sign in */
+
+.sign-in-button,
+.start-button {
+  background: linear-gradient(107.26deg,#f54f4b 11.81%,#a15cc8 123.85%);
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 10px 35px;
+  transition: transform .5s ease-in .2s ;
+}
+
+.sign-in-button:hover,
+.start-button:hover {
+  background: linear-gradient(107.26deg,#a15cc8 11.81%,#f54f4b 123.85%);
+  align-items: flex-start;
+  animation: top-to-bottom .3s ease-out forwards;
+}
+
+@keyframes top-to-bottom {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
 }
