@@ -417,7 +417,7 @@ nav {
 .footer {
   padding: 40px 0 40px 0;
   display: grid;
-  grid-template-columns: 2fr 1.5fr;
+  grid-template-columns: 2fr 1.1fr;
   column-gap: 50px;
 }
 
