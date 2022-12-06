@@ -22,7 +22,7 @@ body {
 }
 
 .container-main {
-  padding: 20px;
+  padding: 20px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -487,9 +487,28 @@ body {
 .iso-ineuron p {
   padding-left: 25px;
 }
-/* add ins */
+/* add on's */
 
 button {
   border: none;
   background: none;
+}
+
+.container-nav {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.container-chat {
+  padding: 100px 80px;
+}
+
+.container-community {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.footer1-cont {
+  padding-left: 80px;
+  padding-right: 80px;
 }
