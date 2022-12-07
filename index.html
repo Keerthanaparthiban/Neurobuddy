@@ -55,7 +55,7 @@
       <div class="container-features">
         <div class="feature-preview">
           <h2 class="f-heading">Feature Preview</h2>
-          <!--<div class="wrapper">
+          <!-- <div class="wrapper">
             <div class="static-txt">Generate</div>
             <ul class="dynamic-txts">
               <li><span>code from a text description</span></li>
@@ -66,7 +66,11 @@
               <li><span>Linux command from a description</span></li>
             </ul>
           </div> -->
-          <h1 class="f-desc">Generate <span>code from a text description</span></h1>
+          <!--<h1 class="f-desc">Generate <span>code from a text description</span></h1>-->
+          <div class="container-auto-type">
+            <h1>Generate <span class="auto-type"></span></h1>
+          </div>
+          
           <p class="f-gen">More than just a code generator. A tool that helps you with a wide range of tasks. All in one place.</p>
         </div>
 
@@ -533,5 +537,17 @@
       </div>
     </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+      var typed = new Typed(".auto-type", {
+        strings: ["code from a text description", "SQL from a text description", "Regex from a text description", "HTML from a text description","an explanation for your code","Linux command from a description"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+      })
+
+    </script>
   </body>
 </html>

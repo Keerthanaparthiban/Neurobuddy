@@ -663,4 +663,23 @@ button {
 @keyframes blink {
   from { border-color: transparent }
   to { border-color: #a03b64; }
-} */
+}*/
+
+.container-auto-type {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-preview h1 {
+  font-size: 2.2rem;
+  font-weight: 550;
+}
+
+.auto-type {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
