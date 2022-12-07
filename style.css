@@ -244,9 +244,9 @@ body {
   display: grid;
   padding: 56px 44px 0 44px;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 8rem;
+  grid-column-gap: 2rem;
   grid-row-gap: 4rem;
-  max-width: 73%;
+  max-width: 68%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -582,3 +582,85 @@ button {
   }
 }
 
+
+/* typewriting text animation */
+
+/*.f-desc {
+  font-size: 2.2rem;
+  font-weight: 550;
+}
+
+.f-desc span {
+  background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}*/
+
+/*
+.wrapper {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+  align-items: center;
+  
+}
+
+.wrapper .static-txt {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 550;
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 60px;
+  line-height: 60px; 
+  overflow: hidden;
+}
+ 
+.dynamic-txts li {
+  list-style: none;
+  font-size: 2.2rem;
+  font-weight: 550;
+  color: red;
+  animation: slide 12s steps(6) infinite;
+  position: relative;
+  top: 0;
+  text-align: left;
+}
+
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+}
+
+.dynamic-txts li::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  border-left: 5px solid #a03b64;
+  animation: typing 2s steps(32) infinite;
+  background-color: rgb(13, 13, 13);
+}
+
+@keyframes typing {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #a03b64; }
+} */
