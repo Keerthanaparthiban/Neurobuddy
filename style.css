@@ -126,7 +126,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 60vh;
+  height: 62vh;
   display: flex;
   justify-content: center;
   padding: 80px 20px;
@@ -496,12 +496,12 @@ button {
 }
 
 .container-main {
-  padding: 20px 130px;
+  padding: 20px 110px;
 }
 
 .container-nav {
-  padding-left: 110px;
-  padding-right: 110px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .container-chat {
@@ -509,13 +509,13 @@ button {
 }
 
 .container-community {
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 110px;
+  padding-right: 110px;
 }
 
 .footer1-cont {
-  padding-left: 130px;
-  padding-right: 13px;
+  padding-left: 110px;
+  padding-right: auto;
 }
 
 /* sign in */
