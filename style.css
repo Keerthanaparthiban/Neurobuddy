@@ -677,7 +677,8 @@ button {
   font-weight: 550;
 }
 
-.auto-type {
+.auto-type,
+.typed-cursor {
   background: linear-gradient(95.87deg,#fe4d3c -.78%,#7f60f9 111.9%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
