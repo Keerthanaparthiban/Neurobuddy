@@ -109,14 +109,6 @@ body {
   background: rgb(18, 18, 18);  
 }
 
-/*.banner-container {
-  background-image: url(/images/landing-page/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
-}*/
-
-
 #main {
   margin-top: 8rem;
 }
@@ -242,11 +234,10 @@ body {
 
 .grids {
   display: grid;
-  padding: 56px 44px 0 44px;
+  padding: 56px 180px 0 240px;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2rem;
+  grid-column-gap: 8rem;
   grid-row-gap: 4rem;
-  max-width: 68%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -505,7 +496,7 @@ button {
 }
 
 .container-chat {
-  padding: 80px 130px;
+  padding: 80px 200px;
 }
 
 .container-community {
