@@ -675,3 +675,183 @@ button {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+
+/* media queries */
+/* Nest Hub */
+@media (max-width: 1024px) {
+  .logo img {
+    width: 140px;
+  }
+
+  .nav-container {
+    height: 115px;
+  }
+
+  .ai-chat,
+  .sign-in-button,
+  .container-nav {
+    font-size: 13px;
+  }
+  .sign-in-button {
+    padding: 10px 22px;
+  }
+
+  .banner-bg {
+    height: 54vh;
+  }
+
+  #main {
+    margin-top: 110px;
+  }
+
+  .heading {
+    padding-top: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .text {
+    font-size: .9rem;
+  }
+
+  .try-button,
+  .start-button,
+  .get-chatting-now {
+    font-size: 12px;
+    padding: 10px 22px;
+  }
+
+  .try-button:hover,
+  .start-button:hover,
+  .get-chatting-now {
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+
+  .container-features {
+    padding: 50px 20px;
+  }
+
+  .f-heading {
+    font-size: 1.2rem;
+    padding-bottom: .7rem;
+  }
+  .f-gen {
+    font-size: .9rem;
+    padding-top: 1rem;
+  }
+  .container-auto-type h1 {
+    font-size: 1.6rem;
+  }
+  .grids {
+    padding-top: 2rem;
+    padding-left: 120px;
+    padding-right: 0px;
+    column-gap: 1rem;
+    row-gap: 1.5rem;
+  }
+  h3.h-child {
+    font-size: .9rem;
+  }
+  p.p-child {
+    font-size: 0.8rem;
+  }
+  .icon {
+    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .icon i {
+    font-size: .7rem;
+  }
+  .container-chat {
+    padding: 3rem 6rem;
+  }
+  .heading-1,
+  .heading-2 {
+    font-size: 1.4rem;
+    padding-bottom: .9rem;
+  }
+  .container-community {
+    padding: 3rem 7rem;
+  }
+  .community-heading {
+    font-size: 1.4rem;
+    padding-bottom: .9rem;
+  }
+  .community-p {
+    font-size: 1rem;
+    padding-bottom: 1.4rem;
+  }
+  .community-grids {
+    padding-top: .9rem;
+    column-gap: 2rem;
+    row-gap: 3rem;
+  }
+  .grid-child {
+    padding: 1.3rem;
+  }
+  .grid-h {
+    font-size: .8rem;
+    padding-bottom: .5rem;
+  }
+  .grid-child h3,
+  .lang {
+    font-size: 1rem;
+  }
+  .grid-child p {
+    font-size: .8rem;
+  }
+  .footer1-cont {
+    padding: 1.3rem 7rem;
+  }
+  .container-products p,
+  .container-Company-grid p {
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  .company-child,
+  .prod-child {
+    font-size: .8rem;
+    padding-bottom: 1rem;
+  }
+  .address,
+  .mail-link {
+    font-size: .8rem;
+  }
+  .social-media-icons i,
+  .loc-icon i,
+  .mail-icon i {
+    font-size: 1rem;
+  }
+  .footer {
+    column-gap: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    grid-template-columns: 3fr 1.2fr;
+  }
+  .company {
+    row-gap: 1rem;
+  }
+  .iso-ineuron img {
+    height: 4rem;
+    width: 3rem;
+    padding-top: .5rem;
+  }
+  .iso-ineuron p {
+    font-size: .6rem;
+  }
+  .logo-social-media-icons {
+    row-gap: .5rem;
+  }
+  .container-Company-grid {
+    padding-right: 1.5rem;
+  }
+  .container-products {
+    margin-left: 1.5rem;
+  }
+}
