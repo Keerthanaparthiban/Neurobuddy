@@ -83,6 +83,16 @@ body {
   color: #f54f4b;
 }
 
+#menu-bar {
+  color: white;
+  font-size: 30pxrem;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
 /*section img {
   width: 100%;
 }*/
