@@ -1011,7 +1011,7 @@ button {
     border: 0;
   }
   h1.heading {
-    font-size: 3rem;
+    font-size: 50px;
   }
   p.text,
   p.f-gen {
@@ -1083,6 +1083,7 @@ button {
   .location,
   .mail-ineuron {
     column-gap: 0;
+    align-items: center;
   }
   .iso-ineuron img {
     height: 5rem;
@@ -1104,5 +1105,66 @@ button {
   .get-chatting-now,
   .get-chatting-now:hover {
     padding: 10px 22px;
+  }
+  .auto-type {
+    
+  }
+}
+
+
+@media (max-width: 840px) {
+  h1.heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 820px) {
+  p.f-gen {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 796px) {
+  .loc-icon i,
+  .mail-icon i {
+    padding-right: 5px;
+  }
+  p.f-gen {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 740px) {
+  h1.heading {
+    font-size: 38px;
+  }
+  .mail-ineuron,
+  .location {
+    column-gap: 10px;
+  }
+  .address {
+    max-width: 80%;
+    padding-top: 10px;
+  }
+  .heading-1,
+  .heading-2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .heading-1,
+  .heading-2 {
+    font-size: 28px;
+  }
+  #chat {
+    height: 42vh;
+  }
+}
+
+
+@media (max-width: 671px) {
+  #chat {
+    height: 42vh;
   }
 }
