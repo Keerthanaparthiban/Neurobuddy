@@ -291,7 +291,7 @@ body {
 }
 
 .container-chat {
-  padding: 80px 20px;
+  padding: 80px 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -299,7 +299,7 @@ body {
 
 .heading-1,
 .heading-2 {
-  font-size: 2.2rem;
+  font-size: 35.2px;
   padding-bottom: 24px;
 }
 
@@ -321,7 +321,7 @@ body {
 }
 
 .community-heading {
-  font-size: 2.2rem;
+  font-size: 35.2px;
   padding-bottom: 24px;
   text-align: center;
 }
@@ -504,9 +504,7 @@ button {
   padding-right: 90px;
 }
 
-.container-chat {
-  padding: 80px 200px;
-}
+
 
 .container-community {
   padding-left: 110px;
@@ -769,19 +767,16 @@ button {
   .icon i {
     font-size: .7rem;
   }
-  .container-chat {
-    padding: 3rem 6rem;
-  }
   .heading-1,
   .heading-2 {
-    font-size: 1.4rem;
+    font-size: 22.4px;
     padding-bottom: .9rem;
   }
   .container-community {
     padding: 3rem 7rem;
   }
   .community-heading {
-    font-size: 1.4rem;
+    font-size: 22.4px;
     padding-bottom: .9rem;
   }
   .community-p {
@@ -935,6 +930,9 @@ button {
     justify-content: center;
     align-items: center;
     padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 90px;
+    max-width: 80%;
   }
   p.ai-chat {
     font-size: 16px;
@@ -971,10 +969,18 @@ button {
     padding-left: 40px;
     row-gap: 2rem;
   }
+  #chat {
+    background-color: black;
+    background-image: url(./images/landing-page/linear-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 10% bottom -60%;
+    background-size: 80%;
+  }
   .container-chat {
     display: block;
     text-align: center;
     height: 30vh;
+    padding: 60px;
   }
   .chatting-now {
     padding-top: 20px;
@@ -984,7 +990,7 @@ button {
   }
   .heading-1,
   .heading-2 {
-    font-size: 2rem;
+    font-size: 32px;
   }
   .heading {
     padding-top: 80px;
@@ -1136,7 +1142,7 @@ button {
 
 @media (max-width: 740px) {
   h1.heading {
-    font-size: 38px;
+    font-size: 40px;
   }
   .mail-ineuron,
   .location {
@@ -1167,4 +1173,132 @@ button {
   #chat {
     height: 42vh;
   }
+  h1.heading {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .company-ul-child,
+  .prod-ul-child {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .chatting-now {
+    padding-top: 10px;
+  }
+  #chat {
+    background-position: right 10% bottom -10%;
+    background-size: 90%;
+  }
+  .banner-buttons {
+    padding: 0;
+    padding-top: 30px;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  p.try-button,
+  p.start-button {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heading-1,
+  .heading-2 {
+    font-size: 25px;
+  }
+  .container-chat {
+    height: 23vh;
+  }
+  .container-auto-type {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-social-media-icons {
+    row-gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .heading-1,
+  .heading-2 {
+    font-size: 20px;
+  }
+  h2.community-heading,
+  .grid-child h3,
+  .lang {
+    font-size: 20px;
+  }
+  .sign-in-and-ai {
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 30px;
+  }
+  p.ai-chat,
+  p.sign-in-button {
+    margin: 0;
+  }
+  p.sign-in-button {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  p.ai-chat {
+    font-size: 14px;
+  }
+  .container-chat {
+    padding: 40px;
+  }
+  #chat {
+    height: 33vh;
+  }
+}
+
+@media (max-width: 523px) {
+  p.f-gen {
+    max-width: 70%;
+    font-size: 14px;
+  }
+  h1.heading {
+    padding-top: 20px;
+  }
+  #chat {
+    height: 38vh;
+  }
+  .nav-bar-logo {
+    background-color: #201428;
+  }
+  .nav-bar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nav-bar-logo,
+  .container-community,
+  .footer1-cont {
+    padding: 20px;
+  }
+  .grids {
+    padding-left: 10px;
+  }
+  .container-community {
+    padding-top: 50px;
+  }
+  #chat {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 485px) {
+  p.nav-company {
+    font-size: 16px;
+  }
+  p.nav-childs,
+  p.home-nav {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  
 }
