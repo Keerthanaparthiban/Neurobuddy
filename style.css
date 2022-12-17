@@ -694,7 +694,8 @@ button {
   .container-nav {
     font-size: 13px;
   }
-  .sign-in-button {
+  .sign-in-button,
+  .sign-in-button:hover {
     padding: 10px 22px;
   }
 
@@ -1244,7 +1245,8 @@ button {
   p.sign-in-button {
     margin: 0;
   }
-  p.sign-in-button {
+  p.sign-in-button,
+  p.sign-in-button:hover {
     padding: 5px 15px;
     font-size: 14px;
   }
