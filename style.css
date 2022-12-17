@@ -1328,7 +1328,9 @@ button {
     max-width: 95%;
   }
   p.try-button,
-  p.start-button {
+  p.start-button,
+  p.try-button:hover,
+  p.start-button:hover {
     padding: 10px 10px;
     max-width: 90px;
   }
