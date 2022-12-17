@@ -1242,7 +1242,8 @@ button {
     padding-top: 30px;
   }
   p.ai-chat,
-  p.sign-in-button {
+  p.sign-in-button,
+  p.sign-in-button:hover {
     margin: 0;
   }
   p.sign-in-button,
