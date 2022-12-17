@@ -1281,7 +1281,7 @@ button {
   .nav-bar-logo,
   .container-community,
   .footer1-cont {
-    padding: 20px;
+    padding: 30px;
   }
   .container-community {
     padding-top: 50px;
@@ -1306,6 +1306,10 @@ button {
   p.nav-childs,
   p.home-nav {
     font-size: 15px;
+  }
+  .container-features {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
